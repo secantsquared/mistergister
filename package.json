@@ -6,6 +6,7 @@
     "build": "webpack --config webpack/webpack.config.js --env.env=prod"
   },
   "dependencies": {
+    "@octokit/auth": "^2.0.0",
     "@octokit/request": "^5.4.7",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
